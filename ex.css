@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  color: white;
+  font-size: 90px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-bottom: 2px solid #1c1c1e;
+  padding: 10px;
+}
+
+.buttons button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 18px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maintStartBtn{
+  border-radius: 50%;
+  border: 2px solid #145324;
+  padding: 3px;
+}
+
+.startBtn{
+  background-color: #145324;
+  color: #0cff3d;
+  border: none;
+}
+
+.mainLapBtn{
+  border-radius: 50%;
+  border: 2px solid #1c1c1e;
+  padding: 3px;
+}
+
+.lapResetBtn{
+  background-color: #1c1c1e;
+  color: white;
+  border: none;
+}
+
+.timerStarted{
+  background-color: #340e0b;
+  color: #bc3d43;
+}
+
+.timerStartedMain{
+  border: 2px solid #340e0b;
+}
+
+.lap {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+}
