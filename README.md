@@ -1,6 +1,6 @@
 
 ## Stop Watch IOS
-I am sharing a Weather App implemented in JavaScript, which utilizes an API.
+I am sharing how to make a StopWatch with IOS UI in JavaScript.
 
 ## Screenshot
 Here is a result:
